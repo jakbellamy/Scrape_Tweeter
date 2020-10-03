@@ -57,7 +57,7 @@ class Yeeter:
                     no_load_top = True
                     break
                 else:
-                    self.run(user, num_tweets, alt_date=new_date)
+                    self.scrape_user(user, num_tweets, alt_date=new_date)
             except:
                 print('Processing Ended: Broke Parent Loop')
                 no_load_top = True
