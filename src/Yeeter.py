@@ -51,7 +51,7 @@ class Yeeter:
             print(len(self.tweets))
             try:
                 driver.quit()
-                time.sleep(1)
+                time.sleep(0.7)
                 new_date = self.tweets[-1][0].split('T')[0]
                 if new_date == alt_date:
                     no_load_top = True
